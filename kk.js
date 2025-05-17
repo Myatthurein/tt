@@ -2,7 +2,7 @@ const TelegramBot = require('node-telegram-bot-api');
 const bot = new TelegramBot(process.env.BOT_TOKEN, { polling: true });
 
 
-const swear_words = ["Lee Ler!", "Lee Nyi Gay", "ညီဂေးလေး", "Lee MIT"]
+const swear_words = ["Gway Si!", "Gay Lay", "ညီဂေးလေး", "Lee NyiHtun"]
 
 bot.on('message', (msg) => {
     const random = Math.floor(Math.random() * 4);
